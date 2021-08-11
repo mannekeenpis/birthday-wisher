@@ -2,9 +2,10 @@ from datetime import datetime
 import pandas
 import random
 import smtplib
+import os
 
-MY_EMAIL = ""
-MY_PASSWORD = ""
+MY_EMAIL = os.environ.get("YAHOO_LOG")
+MY_PASSWORD = os.environ.get("YAHOO_PASS")
 
 today = datetime.now()
 today_tuple = (today.month, today.day)
@@ -18,7 +19,7 @@ if today_tuple in birthdays_dict:
         contents = letter_file.read()
         contents = contents.replace("[NAME]", birthdays_person["name"])
 
-    with smtplib.SMTP("smtp.mail.yahoo.com") as connection:
+    with smtplib.SMTP("smtp.mail.google.com") as connection:
         connection.starttls()
         connection.login(MY_EMAIL, MY_PASSWORD)
         connection.sendmail(
