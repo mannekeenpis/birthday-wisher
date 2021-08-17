@@ -17,10 +17,11 @@ Python's SMTP library, Date time library and built an Automated Birthday Wisher 
 
 ![birthday](birthday.gif)
 
-- Python 3.9
+- Python 3
 - SMTP library
 - Date time library
 - Pandas
+- PythonAnywhere
 
 ---
 
@@ -38,12 +39,5 @@ Python's SMTP library, Date time library and built an Automated Birthday Wisher 
 [![Yahoo](https://img.shields.io/badge/Yahoo-720e9e?style=for-the-badge&logo=yahoo&logoColor=white)](mailto:lenargasimov@yahoo.com)
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/lenargasimov)
 
-
-## 💸 Donations
-
-Feel free to use the :octocat: GitHub Sponsor button to donate towards my work if you're feeling generous ☕️
-
-
-#### 🚧 Under construction... 🚧
 
 
