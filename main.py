@@ -1,8 +1,11 @@
-from datetime import datetime
-import pandas
-import random
-import smtplib
 import os
+import random
+
+import pandas
+import smtplib
+
+from datetime import datetime
+
 
 MY_EMAIL = os.environ.get("YAHOO_LOG")
 MY_PASSWORD = os.environ.get("YAHOO_PASS")
