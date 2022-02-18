@@ -1,4 +1,6 @@
-FROM python:3
-COPY main.py /
-CMD ["python", "./main.py"]
+FROM python:3.10
+
+WORKDIR /usr/src/app
+
+COPY ./main.py /usr/src/app
 
